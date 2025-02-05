@@ -110,6 +110,6 @@ const persons = [
     }
 ]
 
-persons.sort((a,b)=> (a.name).localeCompare)(b.name) || a.age -b.age)
+persons.sort((a,b)=> ((a.name).localeCompare)(b.name) || a.age -b.age);
 
 console.log(persons)
