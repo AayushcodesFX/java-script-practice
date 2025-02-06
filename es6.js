@@ -42,7 +42,29 @@
 // add(1,2,3,4,5);
 
 // map 
-var map = new Map() 
-map.set('name',"John")
 
-console.log(map)
+// var map = new Map() 
+// map.set('name',"John");
+// map.set('age',10); // order preserved...
+// map.set('person', 'map with object key');
+
+// console.log(map)
+// console.log(map.get('name'));
+
+// // 
+// const data = {
+//     name: aayush,
+//     age: 21,
+// };
+
+// var map = new Map()
+// map.set()
+
+// set 
+var set = new Set()
+
+set.add('1');
+set.add(1);
+set.add(1); 
+
+console.log(set); 
