@@ -16,6 +16,7 @@ class Admin extends User {
         DATA = "some new value";
     }
 }
+newUser(); 
 
 let student1 = new User("Aayush","abc@gmail.com");
 let student2 = new User("Aayush!","abcd@gmail.com");
@@ -23,3 +24,5 @@ let student2 = new User("Aayush!","abcd@gmail.com");
 let teacher1 = new User("Aman", "Dean@gmal.com");
 
 let admin1 = new Admin("Admin", "admin@gmail.com");
+
+console.log(admin1);
