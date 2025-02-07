@@ -61,10 +61,15 @@
 // map.set()
 
 // set 
-var set = new Set()
+// var set = new Set([1,2,3,4,4,3])
 
-set.add('1');
-set.add(1);
-set.add(1); 
+// set.add('1');
+// set.add(1);
+// set.add(1); 
 
-console.log(set); 
+// console.log(set); 
+
+// const arr = ([1,2,3,4,4,3])
+// const arr2 = [ ...new Set(arr)]
+// console.log(arr2)
+
